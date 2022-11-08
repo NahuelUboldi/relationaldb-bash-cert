@@ -89,3 +89,16 @@ history -a
 touch countdown.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/nahueluboldi/relationaldb-bash-cert.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
