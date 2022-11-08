@@ -244,3 +244,14 @@ history -a
 echo $?
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help test
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ -x bad_file.txt ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ -x countdown.sh ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
