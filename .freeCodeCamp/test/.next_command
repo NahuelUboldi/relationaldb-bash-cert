@@ -102,3 +102,32 @@ git status
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "questionnaire script finished"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push --set-upstream origin master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+LS
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man ls
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+. .gitignore
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x countdown.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
