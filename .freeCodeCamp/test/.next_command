@@ -161,3 +161,6 @@ history -a
 ./countdown.sh anything
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./countdown.sh 4
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
