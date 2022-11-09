@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n"~~ Questionnaire ~~"\n"
+echo -e "\n~~ Questionnaire ~~\n"
 
 QUESTION1="What's your name?"
 QUESTION2="Where are you from?"
@@ -15,4 +15,4 @@ read LOCATION
 echo $QUESTION3
 read WEBSITE
 
-echo -e "\n"Hello $NAME from $LOCATION. I learned that your favorite coding website is $WEBSITE!
+echo -e "\nHello $NAME from $LOCATION. I learned that your favorite coding website is $WEBSITE!"

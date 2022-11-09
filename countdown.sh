@@ -1,9 +1,12 @@
 #!/bin/bash
+
 # Program that counts down to zero from a given argument
+
+
 
 if [[ $1 -gt 0 ]]
 then
-  for (( i = 10; i > 0; i--))
+  for (( i = $1; i > 0; i-- ))
   do
     echo $i
   done
