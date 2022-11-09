@@ -6,6 +6,8 @@ N=$(($RANDOM % 6))
 
 GET_FORTUNE() {
   echo Ask a yes or no question:
+  read QUESTION
 }
 
 GET_FORTUNE
+echo $QUESTION
